@@ -1,0 +1,139 @@
+/* Login page container */
+.login-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Form section */
+  .form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px; /* Constrain the width of the form */
+  }
+  
+  /* Form heading */
+  .heading {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Form styling */
+  form {
+    width: 100%;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .login-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Already have an account section */
+  .already-account {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .already-account p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .register-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image section */
+  .image-section {
+    position: relative;
+    flex: 1;
+    height: 100vh;
+    background: url('https://tse2.mm.bing.net/th?id=OIP.waVccGSl_-u74ZFmtWKrBAHaEo&pid=Api&P=0&h=220') no-repeat center center/cover;
+    min-width: 300px;
+  }
+  
+  /* Text overlay on image */
+  .image-overlay {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    width: calc(100% - 40px);
+  }
+  
